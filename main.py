@@ -10,7 +10,6 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        self.ui.label_4.setText("asdlalkdalksd")
         
         ScreenshotWidget()
         self.ui.takescreenshotbtn.clicked.connect(lambda:ScreenshotWidget)
