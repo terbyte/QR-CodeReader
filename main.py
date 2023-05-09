@@ -2,7 +2,7 @@ import sys
 from PyQt5 import QtWidgets
 from DESIGNS.MainUI import Ui_MainWindow
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QPushButton, QMessageBox
-
+from screenshotproto import ScreenshotWidget
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
@@ -12,7 +12,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # self.ui.label_4.setText("asdlalkdalksd")
         
-
+        ScreenshotWidget()
 
 
 
