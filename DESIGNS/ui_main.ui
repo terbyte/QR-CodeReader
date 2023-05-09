@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>860</width>
-    <height>386</height>
+    <width>872</width>
+    <height>414</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -59,14 +59,14 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton">
+          <widget class="QPushButton" name="choosefilebtn">
            <property name="text">
             <string>Choose File</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton_2">
+          <widget class="QPushButton" name="takescreenshotbtn">
            <property name="text">
             <string>Take Screenshot</string>
            </property>
@@ -75,7 +75,7 @@
         </layout>
        </item>
        <item>
-        <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0">
+        <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0">
          <property name="spacing">
           <number>3</number>
          </property>
@@ -130,16 +130,23 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton_3">
+          <widget class="QPushButton" name="encryptbtn">
            <property name="text">
             <string>Encrypt</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton_4">
+          <widget class="QPushButton" name="decryptbtn">
            <property name="text">
             <string>Decrypt</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Clearbtn">
+           <property name="text">
+            <string>Clear All</string>
            </property>
           </widget>
          </item>
