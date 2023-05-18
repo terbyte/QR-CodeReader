@@ -23,7 +23,7 @@ class ScreenshotWidget(QWidget):
     def paintEvent(self, event):
         if self.begin and self.end:
             painter = QPainter(self)
-            # painter.setPen(Qt.white)
+            painter.setPen(Qt.white)
             painter.setBrush(Qt.transparent)
             painter.drawRect(self.get_rect())
             
@@ -55,6 +55,7 @@ class ScreenshotWidget(QWidget):
         file_name, _ = QFileDialog.getSaveFileName(self, "Save Image", ".", "Image Files (*.png *.jpg *.bmp)")
         if file_name:
             pixmap.save(file_name)
+            sys.exit()#CLOSING THE CLASS AFTER SAVING THE FILE/IMAGE
 
 
     def get_rect(self):
